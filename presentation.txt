@@ -1,0 +1,77 @@
+Developing for
+Accessibility
+
+Who am I?
+
+Aaron Krauss
+
+I like:
+* tea
+* cocktails
+* longboarding
+
+Professional developer
+in Oklahoma City
+since 2011
+
+Technical Lead of
+New Development
+
+@images/clevyr.png
+
+@images/techlahoma.png
+
+Involved since before
+Techlahoma existed
+
+Active speaker
+since 2014
+
+Former Techlahoma
+Board Member
+(2018 - 2019)
+
+User group leader
+of 2 groups
+
+* OKC Ruby (2018 - 2020)
+* OKC WebDevs (since 2020)
+
+@images/okc-webdevs.png
+
+So what are we
+going to talk about?
+
+Developing for Accessibility
+
+# TODO
+
+How to Get Involved
+Beyond Thunderplains
+
+Signup for the events
+on Meetup
+
+@images/meetup.png
+
+Join the Techlahoma Slack
+
+slack.techlahoma.org
+
+Join #okc-metro, #events,
+and more to keep up with
+local events
+
+Find me, @thecodeboss
+
+tl;dr
+
+Go to these links:
+* meetup.com/pro/techlahoma
+* slack.techlahoma.org
+
+Thanks!
+
+Aaron Krauss
+thecodeboss.dev
+@thecodeboss
