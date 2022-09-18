@@ -45,8 +45,6 @@ tool.
 ## Run the Code
 
 ```shell
-cd code
-
-./server
+./bin/server
 ```
 Now navigate to http://localhost:8000
