@@ -1,0 +1,80 @@
+:root {
+  --address-hsl-hue: 0;
+  --article-hsl-hue: 40;
+  --aside-hsl-hue: 80;
+  --footer-hsl-hue: 120;
+  --header-hsl-hue: 160;
+  --main-hsl-hue: 200;
+  --nav-hsl-hue: 240;
+  --section-hsl-hue: 330;
+
+  --background-color-lightness: 80%;
+  --border-color-lightness: 30%;
+}
+
+p {
+  margin: .75rem 0;
+}
+
+address, article, aside, footer, header, main, nav, section {
+  padding: .75rem;
+  margin: .5rem 0;
+  border: 1px solid;
+}
+
+address {
+  background-color: hsl(var(--address-hsl-hue), 100%, var(--background-color-lightness));
+  border-color: hsl(var(--address-hsl-hue), 100%, var(--border-color-lightness));
+}
+
+article {
+  width: 70%;
+  background-color: hsl(var(--article-hsl-hue), 100%, var(--background-color-lightness));
+  border-color: hsl(var(--article-hsl-hue), 100%, var(--border-color-lightness));
+}
+
+aside {
+  width: 25%;
+  background-color: hsl(var(--aside-hsl-hue), 100%, var(--background-color-lightness));
+  border-color: hsl(var(--aside-hsl-hue), 100%, var(--border-color-lightness));
+}
+
+footer {
+  background-color: hsl(var(--footer-hsl-hue), 100%, var(--background-color-lightness));
+  border-color: hsl(var(--footer-hsl-hue), 100%, var(--border-color-lightness));
+}
+
+header {
+  background-color: hsl(var(--header-hsl-hue), 100%, var(--background-color-lightness));
+  border-color: hsl(var(--header-hsl-hue), 100%, var(--border-color-lightness));
+}
+
+main {
+  background-color: hsl(var(--main-hsl-hue), 100%, var(--background-color-lightness));
+  border-color: hsl(var(--main-hsl-hue), 100%, var(--border-color-lightness));
+}
+
+nav {
+  background-color: hsl(var(--nav-hsl-hue), 100%, var(--background-color-lightness));
+  border-color: hsl(var(--nav-hsl-hue), 100%, var(--border-color-lightness));
+}
+
+section {
+  background-color: hsl(var(--section-hsl-hue), 100%, var(--background-color-lightness));
+  border-color: hsl(var(--section-hsl-hue), 100%, var(--border-color-lightness));
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-footer {
+  display: flex;
+  align-items: center;
+}
+
+.site-footer address {
+  margin-left: 1rem;
+  flex-grow: 1;
+}
