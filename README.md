@@ -4,6 +4,8 @@ By [Aaron Krauss](https://thecodeboss.dev)
 This talk was given at
 [ThunderPlains Conf 2022](https://www.thunderplainsconf.com/). YouTube link TBD.
 
+* [Presentation Demos](https://alkrauss48.github.io/developing-for-accessibility-talk/)
+
 ## Elevator Pitch
 
 It’s 2022, and we know that your website needs to function properly for all
