@@ -122,7 +122,7 @@ Visual Concerns
 * Screen readers
 * Color-blindness
 * Contrast
-* Z-scan
+* Z-Pattern
 * Open Graph
 
 Screen readers
@@ -144,12 +144,14 @@ Tips for maximizing screen reader usage:
 
 * Image alt tags
 
-* Title tags for non-image icons
+* Using links & buttons right
 
 * ARIA properties
 
 Accessible Rich
 Internet Applications
+
+DEMO
 
 Color-blindness
 
@@ -159,7 +161,7 @@ Contrast
 
 @images/contrast.png
 
-Z-scan
+Z-Pattern
 
 Users don’t read web pages,
 they scan.
@@ -212,6 +214,8 @@ e.g. the ESC key
 
 @images/modal.png
 
+DEMO
+
 Cognitive Concerns
 
 * Good content
@@ -258,7 +262,7 @@ So what can you do?
 * 150-200 KB is usually my limit.
 Ideally less than that.
 
-* Minify your CSS and JS
+* Minify & Tree-shake your CSS and JS
 
 * Don't overdo it on custom fonts
 
@@ -283,12 +287,18 @@ References
 * NoCoffee Chrome Plugin: https://chrome.google.com/webstore/detail/nocoffee/jjeeggmbnhckmgdhmgdckeigabjfbddl?hl=en-US
 * Open Graph: https://thecodeboss.dev/2016/12/what-meta-tags-your-site-should-be-using/
 * Contrast Test: https://webaim.org/resources/contrastchecker/
-* Z-Scan: https://uxplanet.org/z-shaped-pattern-for-reading-web-content-ce1135f92f1c
+* Z-Pattern: https://uxplanet.org/z-shaped-pattern-for-reading-web-content-ce1135f92f1c
 * Meta Tags: https://thecodeboss.dev/2016/12/what-meta-tags-your-site-should-be-using/
 * Skip Menu Code: https://gist.github.com/alkrauss48/dc8e010a59d5e2df1666
 
 * Entire Presentation:
 https://github.com/alkrauss48/talks/tree/master/accessibility-talk
+
+Stay Still
+
+We're not done yet
+
+(just gimme like 2 minutes)
 
 How to Get Involved
 Beyond Thunderplains
@@ -313,6 +323,8 @@ tl;dr
 Go to these links:
 * meetup.com/pro/techlahoma
 * slack.techlahoma.org
+
+We're done for real now
 
 Thanks!
 
