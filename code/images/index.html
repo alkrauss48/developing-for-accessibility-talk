@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Semantic HTML - Developing for Accessibility</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimal-ui">
+    <link rel="stylesheet" href="app.css">
+  </head>
+  <body>
+    <main role="main">
+      <section>
+        <div class="background-image"></div>
+        <p class="lead">Background Image</p>
+        <p>Best for:</p>
+        <ul>
+          <li>website aesthetics</li>
+          <li>no significant content</li>
+        </ul>
+      </section>
+      <section>
+        <img src="https://placebear.com/400/400" alt="A majestic bear">
+        <p class="lead">Image Tag</p>
+        <p>Best for:</p>
+        <ul>
+          <li>significant content</li>
+          <li>no label needed/desired</li>
+        </ul>
+      </section>
+      <section>
+        <figure>
+          <img src="https://placebear.com/400/400" alt="A majestic bear">
+          <figcaption>A majestic bear</figcaption>
+        </figure>
+        <p class="lead">Figure + Caption</p>
+        <p>Best for:</p>
+        <ul>
+          <li>significant content</li>
+          <li>label needed/desired</li>
+        </ul>
+      </section>
+    </main>
+    <aside>
+      <p>
+        For even more flexibility, see the
+        <a
+          href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture"
+          target="_blank"
+        >picture</a>
+        HTML element. Note: not supported on IE or Opera Mini.
+      </p>
+    </aside>
+  </body>
+</html>
