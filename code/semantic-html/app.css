@@ -13,12 +13,12 @@
 }
 
 p {
-  margin: .75rem 0;
+  margin: 1rem 0;
 }
 
 address, article, aside, footer, header, main, nav, section {
-  padding: .75rem;
-  margin: .5rem 0;
+  padding: 1rem;
+  margin: 1rem 0;
   border: 1px solid;
 }
 
@@ -28,13 +28,14 @@ address {
 }
 
 article {
-  width: 70%;
+  flex-grow: 1;
+  margin-right: 1rem;
   background-color: hsl(var(--article-hsl-hue), 100%, var(--background-color-lightness));
   border-color: hsl(var(--article-hsl-hue), 100%, var(--border-color-lightness));
 }
 
 aside {
-  width: 25%;
+  width: 300px;
   background-color: hsl(var(--aside-hsl-hue), 100%, var(--background-color-lightness));
   border-color: hsl(var(--aside-hsl-hue), 100%, var(--border-color-lightness));
 }
@@ -77,4 +78,19 @@ section {
 .site-footer address {
   margin-left: 1rem;
   flex-grow: 1;
+}
+
+@media (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+
+  article {
+    width: auto;
+    margin-right: 0;
+  }
+
+  aside {
+    width: auto;
+  }
 }
