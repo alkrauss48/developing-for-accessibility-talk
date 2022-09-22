@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Semantic HTML - Developing for Accessibility</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimal-ui">
+    <link rel="stylesheet" href="app.css">
+  </head>
+  <body>
+    <main role="main">
+      <section>
+        <div>
+          <a class="button" href="/">Go Back</a>
+        </div>
+        <p class="lead">An Anchor Tag</p>
+        <p>Best for:</p>
+        <ul>
+          <li>Taking you to a different URL / inner page.</li>
+        </ul>
+      </section>
+      <section>
+        <div>
+          <button
+            type="button"
+            class="button"
+            onclick="onButtonClick()"
+          >Generate an Alert</button>
+        </div>
+        <p class="lead">A Button Tag</p>
+        <p>Best for:</p>
+        <ul>
+          <li>Doing some logic while staying on the same page.</li>
+        </ul>
+      </section>
+      <section>
+        <div>
+          <form onsubmit="onFormSubmit(event)">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" name="name" id="name" value="">
+            </div>
+            <!-- <button type="submit" class="button">Submit</button> -->
+            <input type="submit" class="button" />
+          </form>
+        </div>
+        <p class="lead">A Form Submission</p>
+        <p>Best for:</p>
+        <ul>
+          <li>Handling user-entered data.</li>
+          <li>Note: It is okay to navigate away from a page after a form is
+            submitted</li>
+        </ul>
+        <p class="results" id="results"></p>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
