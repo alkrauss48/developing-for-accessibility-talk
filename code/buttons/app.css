@@ -28,11 +28,16 @@ ul {
   text-decoration: none;
   font-size: 1rem;
   font-family: inherit;
-  border: none;
   padding: 2em;
   background-color: darkblue;
   color: white;
   cursor: pointer;
+  border: 2px solid darkblue;
+}
+
+.button:hover, .button:focus {
+  background-color: white;
+  color: darkblue;
 }
 
 .results {
