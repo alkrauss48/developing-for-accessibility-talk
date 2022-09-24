@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Headings - Developing for Accessibility</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimal-ui">
+    <link rel="stylesheet" href="app.css">
+  </head>
+  <body>
+    <main role="main">
+      <h1>H1 - This is Your Main Title. Only have 1 of These.</h1>
+      <section>
+        <h2>H2 - The start of a section</h2>
+        <p>Notice how the headings go down in logical order?</p>
+
+        <h3>H3 - A sub-section of the above section</h3>
+        <p>
+          You def wouldn't want to jump to an H5 after this, for example. But you
+          can use the same-size headings just fine too.
+        </p>
+        <hr>
+        <h3>H3 - Another sub-section of the same section</h3>
+        <p>
+          If you want a different sized heading but you're still in the flow of
+          the same content, that's okay -; that's what CSS is for. Changing font
+          size via CSS won't affect accessibility.
+        </p>
+        <h4>H4 - A sub-header of the above sub-section!</h4>
+        <p>
+          See! That's a bigger header than the h3, but it's still an h4!
+        </p>
+      </section>
+      <section>
+        <h2>H2 - The start of an entirely new section</h2>
+        <p>When you're done with the previous segment of content, it is okay to
+          jump back UP in your heading tags.</p>
+      </section>
+    </main>
+    <aside>
+      <p>
+        It might be helpful to think about things like a bulleted list. You
+        can go down only one indentation at a time, but you can jump back to any
+        level whenever you need to (assuming you're done with that section).
+      </p>
+      <ul>
+        <li>
+          H1 (Only have one of these)
+          <ul>
+            <li>
+              H2
+              <ul>
+                <li>H3</li>
+                <li>
+                  H3
+                  <ul>
+                    <li>H4</li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li>H2</li>
+          </ul>
+        </li>
+      </ul>
+    </aside>
+</html>
