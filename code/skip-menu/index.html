@@ -4,8 +4,17 @@
     <meta charset="utf-8">
     <title>Skip Menu - Developing for Accessibility</title>
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimal-ui">
+    <link rel="stylesheet" href="app.css">
   </head>
   <body>
+    <div id="skipmenu">
+      <a href="#menu" class="skippy">Skip directly to menu</a>
+      <a href="#content" class="skippy">Skip directly to site content</a>
+      <a href="#footer" class="skippy">Skip directly to site footer</a>
+    </div>
+
+    <a name="menu" tabindex="-1"></a>
+
     <nav>
       <ul>
         <li><p>One</p></li>
@@ -18,5 +27,10 @@
         </li>
       </ul>
     </nav>
+
+    <a name="content" tabindex="-1"></a>
+
+    <a name="footer" tabindex="-1"></a>
+
   </body>
 </html>
