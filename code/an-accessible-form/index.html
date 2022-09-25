@@ -16,10 +16,12 @@
         <div class="form-group">
           <label for="name">Name:</label>
           <input type="text" name="name" id="name" value="">
+          <p id="nameError" class="error is-hidden"></p>
         </div>
         <div class="form-group">
           <label for="email">Email:</label>
           <input type="email" name="email" id="email" value="">
+          <p id="emailError" class="error is-hidden"></p>
         </div>
         <fieldset class="form-group">
           <legend>Are you enjoying ThunderPlains 2022?</legend>
@@ -71,13 +73,14 @@
             </div>
             </label>
           </div>
+          <p id="enjoyingError" class="error is-hidden"></p>
         </fieldset>
-        <button class="button" type="submit">Submit</button>
+        <div>
+          <button class="button" type="submit">Submit</button>
+        </div>
+        <p id="success" class="success is-hidden"></p>
       </form>
 
-      <hr>
-
-      <p class="results">Results: <span id="results"></span></p>
     </main>
 
     <hr>

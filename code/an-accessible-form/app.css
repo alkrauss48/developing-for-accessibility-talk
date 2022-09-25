@@ -3,9 +3,19 @@ form {
   padding: 1rem;
 }
 
-.results {
-  padding: 1rem;
-  background-color: yellow;
+.success {
+  font-weight: bold;
+  margin-bottom: 0;
+  color: green;
+}
+
+.error {
+  color: red;
+  margin: 0.25rem 0;
+}
+
+.is-hidden {
+  display: none;
 }
 
 .form-group {
