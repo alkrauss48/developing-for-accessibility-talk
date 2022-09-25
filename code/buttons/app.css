@@ -11,6 +11,12 @@ section {
   width: 100%;
 }
 
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 ul {
   display: inline-block;
 }
@@ -21,6 +27,7 @@ ul {
 
 .form-group {
   margin-bottom: 1rem;
+  margin-right: .5rem;
 }
 
 .button {
@@ -42,4 +49,10 @@ ul {
 
 .results {
   color: darkred;
+}
+
+@media (max-width: 700px) {
+  main {
+    flex-direction: column;
+  }
 }

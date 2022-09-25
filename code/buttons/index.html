@@ -13,6 +13,8 @@
           <a class="button" href="/developing-for-accessibility-talk">Go Back</a>
         </div>
         <p class="lead">An Anchor Tag</p>
+        <p>&#60;a href="#"&#62; &#60;/a&#62;</p>
+        <hr>
         <p>Best for:</p>
         <ul>
           <li>Taking you to a different URL / inner page.</li>
@@ -27,32 +29,42 @@
           >Generate an Alert</button>
         </div>
         <p class="lead">A Button Tag</p>
+        <p>&#60;button type="button"&#62; &#60;/button&#62;</p>
+        <hr>
         <p>Best for:</p>
         <ul>
-          <li>Doing some logic while staying on the same page.</li>
+          <li>Doing some simple client-side logic.</li>
         </ul>
       </section>
       <section>
-        <div>
-          <form onsubmit="onFormSubmit(event)">
-            <div class="form-group">
-              <label for="name">Name</label>
-              <input type="text" name="name" id="name" value="">
-            </div>
-            <!-- <button type="submit" class="button">Submit</button> -->
-            <input type="submit" class="button" />
-          </form>
-        </div>
+        <form onsubmit="onFormSubmit(event)">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" value="">
+          </div>
+          <button type="submit" class="button">Submit</button>
+        </form>
         <p class="lead">A Form Submission</p>
+        <p>&#60;button type="submit"&#62; &#60;/button&#62;</p>
+        <hr>
         <p>Best for:</p>
         <ul>
           <li>Handling user-entered data.</li>
-          <li>Note: It is okay to navigate away from a page after a form is
-            submitted</li>
         </ul>
         <p class="results" id="results"></p>
       </section>
     </main>
+    <aside>
+      <p>
+        <b>Tips:</b> If you are only navigating somewhere, always use an anchor
+        tag. If you are doing client-side logic, then use a button.
+      </p>
+      <p></p>
+        The <b>type</b> property of a button tag is very important; if you use a
+        "button" type for a submission, or a "submit" type for a normal action,
+        those are no-no's.
+      </p>
+    </aside>
     <script src="app.js"></script>
   </body>
 </html>
