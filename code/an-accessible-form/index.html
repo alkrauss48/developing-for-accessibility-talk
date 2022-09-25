@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>An Accessible Form - Developing for Accessibility</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimal-ui">
+    <link rel="stylesheet" href="app.css">
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>An Accessible Form</h1>
+        <p>Complete and submit the form for a nice message.</p>
+      </header>
+      <form onSubmit="onFormSubmit(event)">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" name="name" id="name" value="">
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" value="">
+        </div>
+        <fieldset class="form-group">
+          <legend>Are you enjoying ThunderPlains 2022?</legend>
+          <div class="radio-row">
+            <div class="radio-item">
+              <input
+                id="yes-english"
+                type="radio"
+                name="enjoying"
+                value="yes-english"
+                aria-describedby="yes-english-help"
+              >
+              <label for="yes-english">Yes</label>
+            </div>
+            <div>
+              <p class="radio-help" id="yes-english-help">English</p>
+            </div>
+            </label>
+          </div>
+          <div class="radio-row">
+            <div class="radio-item">
+              <input
+                id="yes-german"
+                type="radio"
+                name="enjoying"
+                value="yes-german"
+                aria-describedby="yes-german-help"
+              >
+              <label for="yes-german">Ja</label>
+            </div>
+            <div>
+              <p class="radio-help" id="yes-german-help">German</p>
+            </div>
+            </label>
+          </div>
+          <div class="radio-row">
+            <div class="radio-item">
+              <input
+                id="yes-spanish"
+                type="radio"
+                name="enjoying"
+                value="yes-spanish"
+                aria-describedby="yes-spanish-help"
+              >
+              <label for="yes-spanish">Si</label>
+            </div>
+            <div>
+              <p class="radio-help" id="yes-spanish-help">Spanish</p>
+            </div>
+            </label>
+          </div>
+        </fieldset>
+        <button class="button" type="submit">Submit</button>
+      </form>
+
+      <hr>
+
+      <p class="results">Results: <span id="results"></span></p>
+    </main>
+
+    <hr>
+
+    <aside>
+      <p><b>Tips:</b></p>
+      <ul>
+        <li>Placeholder text isn't a label. You need an actual label that is
+          tied to the field it is labelling.</li>
+        <li>Make sure your tab order flows properly.</li>
+        <li>Make sure you have good focus indication.</li>
+        <li>Group related fields (like radio buttons and checkboxes) together
+          with fieldsets and legends</li>
+        <li>Use ARIA properties if you are doing anything beyond what semantic
+          HTML supports.</li>
+      </ul>
+    </aside>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+form {
+  background-color: #ececec;
+  padding: 1rem;
+}
+
+.results {
+  padding: 1rem;
+  background-color: yellow;
+}
+
+.form-group {
+  margin: 1rem 0;
+}
+
+.button {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: inherit;
+  padding: 1rem;
+  background-color: darkblue;
+  color: white;
+  cursor: pointer;
+  border: 2px solid darkblue;
+}
+
+.button:hover, .button:focus {
+  background-color: white;
+  color: darkblue;
+}
+
+.radio-row {
+  display: flex;
+}
+
+.radio-item {
+  width: 10rem;
+}
+
+.radio-help {
+  font-style: italic;
+  margin: 0;
+}
