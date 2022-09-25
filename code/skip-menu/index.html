@@ -7,30 +7,64 @@
     <link rel="stylesheet" href="app.css">
   </head>
   <body>
-    <div id="skipmenu">
-      <a href="#menu" class="skippy">Skip directly to menu</a>
-      <a href="#content" class="skippy">Skip directly to site content</a>
-      <a href="#footer" class="skippy">Skip directly to site footer</a>
-    </div>
+    <nav id="skipmenu">
+      <a href="#menu" class="skip-link">Skip directly to menu</a>
+      <a href="#content" class="skip-link">Skip directly to site content</a>
+      <a href="#footer" class="skip-link">Skip directly to site footer</a>
+    </nav>
 
-    <a name="menu" tabindex="-1"></a>
+    <h1>Skip Menus</h1>
+    <p>Press <b>tab</b> to show the skip menu. Keep tabbing to see the other menu
+      items, and when you want to skip to a certain section, press <b>enter</b>.</p>
 
-    <nav>
+    <hr>
+
+    <nav class="menu">
+      <a id="menu" tabindex="-1"></a>
+      <h2>Menu</h2>
       <ul>
-        <li><p>One</p></li>
-        <li><p>Two</p></li>
+        <li><a href="#">One</a></li>
+        <li><a href="#">Two</a></li>
         <li>
-          <p>Skip a Few</p>
+          <a href="#">Skip a Few</a>
           <ul>
-            <li><p>One Hundred</p></li>
+            <li><a href="#">One Hundred</a></li>
           </ul>
         </li>
       </ul>
     </nav>
 
-    <a name="content" tabindex="-1"></a>
+    <hr>
 
-    <a name="footer" tabindex="-1"></a>
+    <main role="main">
+      <a id="content" tabindex="-1"></a>
+      <h2>Site Content</h2>
+      <button type="button">A Main Content Button</button>
+      <button type="button">Another Main Content Button</button>
+    </main>
+
+    <hr>
+
+    <footer>
+      <a id="footer" tabindex="-1"></a>
+      <h2>Footer</h2>
+      <button type="button">A Main Content Button</button>
+      <button type="button">Another Main Content Button</button>
+    </footer>
+
+    <hr>
+
+    <aside>
+      <p>
+        <b>Tips:</b> Always check the tab-ability of your site. Tab follows the
+        order of your HTML, so if you use CSS styles like <b>reverse flex-direction</b>
+        or <b>float</b> to modify content order, then that might affect your tab order.
+      </p>
+      <p></p>
+      Different sites need different levels of skip menus; but at a minimum you
+      should include one that allows bypassing your main navigation.
+      </p>
+    </aside>
 
   </body>
 </html>
