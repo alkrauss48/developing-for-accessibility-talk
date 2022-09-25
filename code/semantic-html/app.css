@@ -35,7 +35,6 @@ article {
 }
 
 aside {
-  width: 300px;
   background-color: hsl(var(--aside-hsl-hue), 100%, var(--background-color-lightness));
   border-color: hsl(var(--aside-hsl-hue), 100%, var(--border-color-lightness));
 }
@@ -71,13 +70,16 @@ section {
 }
 
 .site-footer {
-  display: flex;
   align-items: center;
 }
 
 .site-footer address {
   margin-left: 1rem;
   flex-grow: 1;
+}
+
+.sidebar {
+  width: 300px;
 }
 
 @media (max-width: 700px) {
@@ -90,7 +92,7 @@ section {
     margin-right: 0;
   }
 
-  aside {
+  .sidebar {
     width: auto;
   }
 }

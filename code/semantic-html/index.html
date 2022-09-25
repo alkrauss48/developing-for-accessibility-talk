@@ -7,45 +7,57 @@
     <link rel="stylesheet" href="app.css">
   </head>
   <body>
-    <nav>
-      <p>Nav</p>
-    </nav>
+      <header>
+        <p><b>&#60;header&#62;</b> - introductory content or a set of navigational links</p>
+        <nav>
+          <p><b>&#60;nav&#62;</b> - defines a set of navigation major links</p>
+        </nav>
+      </header>
     <main role="main">
-      <p>Main</p>
+      <p><b>&#60;main&#62;</b> - the main content of the document</p>
 
       <header>
-        <p>Header</p>
+        <p><b>&#60;header&#62;</b> - introductory content or a set of navigational links</p>
       </header>
 
       <div class="row">
         <article>
-          <p>Article</p>
+          <p><b>&#60;article&#62;</b> - independent, self-contained content</p>
           <section>
             <header>
-              <p>Header</p>
+              <p><b>&#60;header&#62;</b> - introductory content or a set of navigational links</p>
             </header>
-            <p>Section</p>
+            <p><b>&#60;section&#62;</b> - a section in a document</p>
           </section>
         </article>
 
-        <aside>
-          <p>Aside</p>
+        <aside class="sidebar">
+          <p><b>&#60;aside&#62;</b> - content aside from the content it is placed in</p>
 
           <section>
-            <p>Section</p>
+            <p><b>&#60;section&#62;</b> - a section in a document</p>
             <footer>
-              <p>Footer</p>
+              <p><b>&#60;footer&#62;</b> - footer for a document or section</p>
             </footer>
           </section>
         </aside>
       </div>
     </main>
 
-    <footer class="site-footer">
-      <p>Footer</p>
+    <footer class="site-footer row">
+      <p><b>&#60;footer&#62;</b> - footer for a document or section</p>
       <address>
-        Address
+        <b>&#60;address&#62;</b> - contact information for the author/owner of a document or an article
       </address>
     </footer>
+
+    <hr>
+
+    <p>
+      <b>Tip:</b> If you don't know what semantic HTML element you should use,
+      then a <b>&#60;section&#62;</b> is always a safe bet. And it is still
+      okay to use <b>&#60;div&#62;</b> tags for layout; even this page does!
+    </p>
+
   </body>
 </html>
