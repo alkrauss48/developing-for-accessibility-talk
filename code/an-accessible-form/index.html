@@ -12,19 +12,31 @@
         <h1>An Accessible Form</h1>
         <p>Complete and submit the form for a nice message.</p>
       </header>
-      <form onSubmit="onFormSubmit(event)">
+      <form onSubmit="onFormSubmit(event)" novalidate>
         <div class="form-group">
-          <label for="name">Name:</label>
-          <input type="text" name="name" id="name" value="">
+          <label class="required" for="name">Name:</label>
+          <input
+            required
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Jane Doe"
+          >
           <p id="nameError" class="error is-hidden"></p>
         </div>
         <div class="form-group">
-          <label for="email">Email:</label>
-          <input type="email" name="email" id="email" value="">
+          <label class="required" for="email">Email:</label>
+          <input
+            required
+            type="email"
+            name="email"
+            id="email"
+            placeholder="jane@example.com"
+          >
           <p id="emailError" class="error is-hidden"></p>
         </div>
         <fieldset class="form-group">
-          <legend>Are you enjoying ThunderPlains 2022?</legend>
+          <legend class="required">Are you enjoying ThunderPlains 2022?</legend>
           <div class="radio-row">
             <div class="radio-item">
               <input
@@ -33,6 +45,7 @@
                 name="enjoying"
                 value="yes-english"
                 aria-describedby="yes-english-help"
+                required
               >
               <label for="yes-english">Yes</label>
             </div>
@@ -49,6 +62,7 @@
                 name="enjoying"
                 value="yes-german"
                 aria-describedby="yes-german-help"
+                required
               >
               <label for="yes-german">Ja</label>
             </div>
@@ -65,6 +79,7 @@
                 name="enjoying"
                 value="yes-spanish"
                 aria-describedby="yes-spanish-help"
+                required
               >
               <label for="yes-spanish">Si</label>
             </div>
@@ -83,18 +98,20 @@
 
     </main>
 
-    <hr>
-
     <aside>
       <p><b>Tips:</b></p>
       <ul>
-        <li>Placeholder text isn't a label. You need an actual label that is
+        <li>Placeholder text isn't a label. It should give an example of what
+          input you should provide.</li>
+        <li>You need an actual visible label that is
           tied to the field it is labelling.</li>
+        <li>Indicate your required fields.</li>
         <li>Make sure your tab order flows properly.</li>
         <li>Make sure you have good focus indication.</li>
+        <li>Hitting 'Enter' should submit your form.</li>
         <li>Group related fields (like radio buttons and checkboxes) together
           with fieldsets and legends</li>
-        <li>Use ARIA properties if you are doing anything beyond what semantic
+        <li>Use ARIA roles and attributes if you are doing anything beyond what semantic
           HTML supports.</li>
       </ul>
     </aside>

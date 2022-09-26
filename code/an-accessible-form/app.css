@@ -39,12 +39,17 @@ form {
   color: darkblue;
 }
 
+.required:after {
+  content: '*';
+  color: red;
+}
+
 .radio-row {
   display: flex;
 }
 
 .radio-item {
-  width: 10rem;
+  width: 8rem;
 }
 
 .radio-help {
