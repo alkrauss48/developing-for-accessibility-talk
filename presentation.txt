@@ -280,54 +280,18 @@ times when it gets up on YouTube
 
 3) Then google things
 
-References
-
-* Section 508: https://www.epa.gov/accessibility/what-section-508
-* JAWS Screen Reader: https://support.freedomscientific.com/Downloads/JAWS
-* VoiceOver: https://www.apple.com/accessibility/vision/
-* Developing for Accessibility: https://thecodeboss.dev/2014/07/developing-for-accessibility/
-* ARIA Roles and Attributes: https://thecodeboss.dev/2016/09/aria-roles-and-attributes-how-to-actually-use-them/
-* NoCoffee Chrome Plugin: https://chrome.google.com/webstore/detail/nocoffee/jjeeggmbnhckmgdhmgdckeigabjfbddl?hl=en-US
-* Open Graph: https://thecodeboss.dev/2016/12/what-meta-tags-your-site-should-be-using/
-* Contrast Test: https://webaim.org/resources/contrastchecker/
-* Z-Pattern: https://uxplanet.org/z-shaped-pattern-for-reading-web-content-ce1135f92f1c
-* Meta Tags: https://thecodeboss.dev/2016/12/what-meta-tags-your-site-should-be-using/
-* Skip Menu Code: https://gist.github.com/alkrauss48/dc8e010a59d5e2df1666
+* References
+https://alkrauss48.github.io/developing-for-accessibility-talk/
 
 * Entire Presentation:
-https://github.com/alkrauss48/talks/tree/master/accessibility-talk
-
-Stay Still
-
-We're not done yet
-
-(just gimme like 2 minutes)
+https://github.com/alkrauss48/developing-for-accessibility-talk
 
 How to Get Involved
 Beyond Thunderplains
 
-Signup for the events
-on Meetup
-
-@images/meetup.png
-
-Join the Techlahoma Slack
-
-slack.techlahoma.org
-
-Join #okc-metro, #events,
-and more to keep up with
-local events
-
-Find me, @thecodeboss
-
-tl;dr
-
 Go to these links:
 * meetup.com/pro/techlahoma
 * slack.techlahoma.org
-
-We're done for real now
 
 Thanks!
 
