@@ -10,6 +10,9 @@ I like:
 * cocktails
 * longboarding
 
+I have a beautiful wife
+and a beautiful son
+
 Professional developer
 in Oklahoma City
 since 2011
@@ -111,21 +114,23 @@ But it's okay...
 Types of Disabilities
 
 * Visual
-* Auditory
 * Motor
+* Auditory
 * Cognitive
 
 Followed by a bonus disability
 
 Visual Concerns
 
-* Screen readers
+* Low-or-no Vision
 * Color-blindness
 * Contrast
 * Z-Pattern
 * Open Graph
 
-Screen readers
+Low-or-no Vision
+
+People will use screen readers
 
 Windows - JAWS
 MacOS - Voice Over (built-in)
@@ -146,16 +151,14 @@ Tips for maximizing screen reader usage:
 
 * Using links & buttons right
 
-* ARIA properties
+* ARIA roles and attributes - as needed
 
 Accessible Rich
 Internet Applications
 
-DEMO
-
 Color-blindness
 
-NoCoffee Chrome Plugin
+axe Chrome Plugin
 
 Contrast
 
