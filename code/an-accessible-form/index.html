@@ -2,14 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>An Accessible Form - Developing for Accessibility</title>
+    <title>A Reasonably Accessible Form - Developing for Accessibility</title>
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimal-ui">
     <link rel="stylesheet" href="app.css">
   </head>
   <body>
     <main>
       <header>
-        <h1>An Accessible Form</h1>
+        <h1>A Reasonably Accessible Form</h1>
         <p>Complete and submit the form for a nice message.</p>
       </header>
       <form id="form" onSubmit="onFormSubmit(event)" novalidate>
@@ -113,11 +113,27 @@
           HTML supports. This form uses the following ARIA roles and attributes:
           <ul>
             <li><b>aria-describedby</b> on the radio inputs.</li>
-            <li><b>aria-invalid</b> and <b>aria-errormessage</b> on the radio inputs.</li>
+            <li><b>aria-invalid</b> and <b>aria-errormessage</b> on the invalid inputs.</li>
             <li><b>role="alert"</b> on the validation errors.</li>
           </ul>
         </li>
       </ul>
+
+      <p><b>Things I <u>didn't</u> include:</b></p>
+      <ul>
+        <li>Grouping of errors at the top of the form, with links to focus on
+          the exact inputs.</li>
+        <li>Validation updating on blur or change; you have to resubmit the form
+          to see a change in the errors.</li>
+      </ul>
+
+      <p>
+        For a pretty darn awesome fully-accessible form, see:
+        <a
+          target="_blank"
+          href="https://www.tenon-ui.info/forms-full-demo"
+        >https://www.tenon-ui.info/forms-full-demo</a>
+      </p>
     </aside>
     <script src="app.js"></script>
   </body>
