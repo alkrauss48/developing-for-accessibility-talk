@@ -82,6 +82,11 @@ section {
   width: 300px;
 }
 
+.no-style {
+  background: none;
+  border: none;
+}
+
 @media (max-width: 700px) {
   .row {
     flex-direction: column;
