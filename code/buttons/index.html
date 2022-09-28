@@ -13,7 +13,7 @@
           <a class="button" href="/developing-for-accessibility-talk">Go Back</a>
         </div>
         <p class="lead">An Anchor Tag</p>
-        <p>&#60;a href="#"&#62; &#60;/a&#62;</p>
+        <p>&#60;a href="#"&#62;Go Back&#60;/a&#62;</p>
         <hr>
         <p>Best for:</p>
         <ul>
@@ -29,7 +29,7 @@
           >Generate an Alert</button>
         </div>
         <p class="lead">A Button Tag</p>
-        <p>&#60;button type="button"&#62; &#60;/button&#62;</p>
+        <p>&#60;button type="button"&#62;Generate an Alert&#60;/button&#62;</p>
         <hr>
         <p>Best for:</p>
         <ul>
@@ -45,30 +45,34 @@
           <button type="submit" class="button">Submit</button>
         </form>
         <p class="lead">A Form Submission</p>
-        <p>&#60;button type="submit"&#62; &#60;/button&#62;</p>
+        <p>&#60;button type="submit"&#62;Submit&#60;/button&#62;</p>
         <hr>
         <p>Best for:</p>
         <ul>
           <li>Handling user-entered data.</li>
+          <li><b>Note:</b> This is the default button type.</li>
         </ul>
         <p class="results" id="results"></p>
       </section>
     </main>
     <aside>
-      <p>
-        <b>Tips:</b> If you are only navigating somewhere, always use an anchor
-        tag. If you are doing client-side logic, then use a button.
-      </p>
-      <p></p>
-        The <b>type</b> property of a button tag is very important; if you use a
-        "button" type for a submission, or a "submit" type for a normal action,
-        those are no-no's.
-      </p>
-      <p></p>
-        Lastly, make sure your links and buttons have good visual focus
-        indication. Usually your browser will handle this, but often times I
-        like to apply the same "hover" styles for "focus" styles too.
-      </p>
+      <p><b>Tips:</b></p>
+      <ul>
+        <li>
+          If you are only navigating somewhere, always use an anchor
+          tag. If you are doing client-side logic, then use a button.
+        </li>
+        <li>
+          The <b>type</b> property of a button tag is very important; if you use a
+          "button" type for a submission, or a "submit" type for a normal action,
+          those are no-no's.
+        </li>
+        <li>
+          Lastly, make sure your links and buttons have good visual focus
+          indication. Usually your browser will handle this, but often times I
+          like to apply the same "hover" styles for "focus" styles too.
+        </li>
+      </ul>
     </aside>
     <script src="app.js"></script>
   </body>

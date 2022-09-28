@@ -22,6 +22,10 @@ form {
   margin: 1rem 0;
 }
 
+small {
+  margin-left: .25rem;
+}
+
 .button {
   display: inline-block;
   text-decoration: none;
@@ -46,10 +50,7 @@ form {
 
 .radio-row {
   display: flex;
-}
-
-.radio-item {
-  width: 8rem;
+  margin-bottom: .25rem;
 }
 
 .radio-help {

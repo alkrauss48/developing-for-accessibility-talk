@@ -86,10 +86,7 @@ const resetValidation = () => {
 
   document.querySelectorAll('[aria-invalid]').forEach( (elem) => {
     elem.removeAttribute('aria-invalid');
-  });
-
-  document.querySelectorAll('[aria-errormessage]').forEach( (elem) => {
-    elem.removeAttribute('aria-errormessage');
+    elem.removeAttribute('aria-describedby');
   });
 }
 
@@ -105,5 +102,5 @@ const handleValidationError = (name, message) => {
   errorElement.classList.add('error', 'validation');
 
   formControl.setAttribute('aria-invalid', 'true');
-  formControl.setAttribute('aria-errormessage', errorElement.id);
+  formControl.setAttribute('aria-describedby', errorElement.id);
 };

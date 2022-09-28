@@ -21,6 +21,12 @@ ul {
   display: inline-block;
 }
 
+aside {
+  max-width: 40rem;
+  margin: 5rem auto;
+  text-align: left;
+}
+
 .lead {
   font-weight: 700;
 }

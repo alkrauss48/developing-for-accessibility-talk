@@ -22,6 +22,7 @@ figure {
 aside {
   max-width: 40rem;
   margin: 5rem auto;
+  text-align: left;
 }
 
 ul {
