@@ -12,7 +12,7 @@ const onFormSubmit = (event) => {
 
   const errors = validate(data);
 
-  if (Object.keys(errors).length > 0) {
+  if (errors.length > 0) {
     handleErrors(errors);
     return;
   }
@@ -33,38 +33,49 @@ const handleSuccess = (data) => {
 };
 
 const handleErrors = (errors) => {
-  for (const name in errors) {
-    const message = errors[name];
-
-    handleValidationError(name, message);
+  for (const { name, label } of errors) {
+    handleValidationError(name, label);
   }
+
+  focusOn(errors[0].name);
 };
 
 const validate = (formProps) => {
-  // The object representing the errors
-  // Key - formProps key name, Value - the client-facing error message.
-  let errors = {};
+  // The array representing the errors
+  let errors = [];
 
   resetValidation();
 
   // Handle requiring the Name field.
   if (!formProps.name) {
-    errors.name = 'Name is required.';
+    errors.push({
+      name: 'name',
+      label: 'Name is required.',
+    });
   }
 
   // Handle requiring the Email field.
   if (!formProps.email) {
-    errors.email = 'Email is required.';
+    errors.push({
+      name: 'email',
+      label: 'Email is required.',
+    });
   }
 
   // Handle formatting the Email field.
-  if (!errors.email && !formProps.email.match(/^\S+@\S+\.\S+$/)) {
-    errors.email = 'Must provide a valid email address.';
+  if (formProps.email && !formProps.email.match(/^\S+@\S+\.\S+$/)) {
+    errors.push({
+      name: 'email',
+      label: 'Must provide a valid email address.',
+    });
   }
 
   // Handle requiring the 'Are you Enjoying TP2022' field.
   if (!formProps.enjoying) {
-    errors.enjoying = 'Knowing that you are enjoying ThunderPlains 2022 is required.';
+    errors.push({
+      name: 'enjoying',
+      label: 'Knowing that you are enjoying ThunderPlains 2022 is required.',
+    });
   }
 
   return errors;
@@ -90,17 +101,21 @@ const resetValidation = () => {
   });
 }
 
-const handleValidationError = (name, message) => {
+const handleValidationError = (name, label) => {
   const formControl = document.querySelector(`[name=${name}]`);
   const formGroup = formControl.closest('.form-group');
 
   const errorElement = formGroup.appendChild(document.createElement('p'))
 
   errorElement.id = `${name}Error`;
-  errorElement.innerText = message;
+  errorElement.innerText = label;
   errorElement.setAttribute('role', 'alert');
   errorElement.classList.add('error', 'validation');
 
   formControl.setAttribute('aria-invalid', 'true');
   formControl.setAttribute('aria-describedby', errorElement.id);
+};
+
+const focusOn = (name) => {
+  document.querySelector(`[name=${name}]`).focus();
 };
