@@ -66,7 +66,7 @@ const validate = (formProps) => {
   if (formProps.email && !formProps.email.match(/^\S+@\S+\.\S+$/)) {
     errors.push({
       name: 'email',
-      label: 'Must provide a valid email address.',
+      label: 'Must provide a properly formatted email address.',
     });
   }
 
