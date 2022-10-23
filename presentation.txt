@@ -67,11 +67,11 @@ Main Concept
 Building an accessible web site
 makes your website better overall
 
+* More quality content
 * Better design architecture
 * Better code architecture
-* More quality content
 * Better SEO
-* More usage (and thus popularity)
+* More usage and popularity
 
 And all of that usually means more $$$
 
@@ -81,6 +81,9 @@ Developing an accessibile site
 may also be required
 
 Section 508
+
+It requires all Federal electronic
+content to be accessible
 
 Some housekeeping...
 
@@ -125,8 +128,6 @@ Visual Concerns
 * Low-or-no Vision
 * Color-blindness
 * Contrast
-* Z-Pattern
-* Open Graph
 
 Low-or-no Vision
 
@@ -141,24 +142,29 @@ Accessibility tree
 
 Accessibility tree vs DOM tree
 
-Tips for maximizing screen reader usage:
+Tips for developing for visual impairments:
 
 * Use Semantic HTML
-  * Such as <section>,<article>,
-    <aside>,<nav>, etc.
-
+* Use headings appropriately
 * Image alt tags
-
-* Using links & buttons right
-
+* Use links & buttons right
 * ARIA roles and attributes - as needed
 
-Accessible Rich
+ARIA = Accessible Rich
 Internet Applications
+
+Tips for designing for visual impairments:
+
+* Color-blindness
+* Contrast
+* Z-Pattern
+* Open-Graph & Favicon
 
 Color-blindness
 
-axe Chrome Plugin
+Not just one kind
+
+Wave and/or axe Chrome Plugin
 
 Contrast
 
@@ -171,7 +177,7 @@ they scan.
 
 @images/z-scan.png
 
-Open Graph
+Open Graph & Favicon
 
 Auditory Concerns
 
@@ -180,6 +186,10 @@ For Media:
 * Subtitles
 * Volume controls
 * Ideally default to a "muted" state
+
+My advice:
+
+Use YouTube or Vimeo
 
 For supplemental audio:
 
@@ -222,7 +232,7 @@ DEMO
 Cognitive Concerns
 
 * Good content
-* Well-thought-out workflows
+* Good UX
 * "Panic" mode
 
 Good Content
@@ -231,10 +241,10 @@ Good Content
 * Titles / Headings
 * Call to Actions
 
-Well thought-out workflows
+Good UX
 
-* Analyze multiple users' perspectives
-* Build wireframes (and give them to the dev)
+* Consider all user workflows
+* Build wireframes
 
 "Panic" mode
 
@@ -258,32 +268,23 @@ Especially in other countries
 
 So what can you do?
 
-* Optimize your images
+0. Optimize your images
 
 @images/super-mario.png
 
-* 150-200 KB is usually my limit.
+150-200 KB is usually my limit.
 Ideally less than that.
 
-* Minify & Tree-shake your CSS and JS
+1. Minify & Tree-shake your CSS and JS
 
-* Don't overdo it on custom fonts
+2. Don't overdo it on custom fonts
 
-* Set caching HTTP headers
+3. Set caching HTTP headers
 
-Want to learn more?
-
-1) Watch this talk like 2 more
-times when it gets up on YouTube
-
-2) Then follow the references
-
-3) Then google things
-
-* References
+References & Demo
 https://alkrauss48.github.io/developing-for-accessibility-talk/
 
-* Entire Presentation:
+GitHub Repo
 https://github.com/alkrauss48/developing-for-accessibility-talk
 
 How to Get Involved
