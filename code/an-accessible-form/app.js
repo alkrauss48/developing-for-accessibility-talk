@@ -2,7 +2,6 @@ const YES_ENGLISH = 'yes-english';
 const YES_GERMAN = 'yes-german';
 const YES_SPANISH = 'yes-spanish';
 
-
 const onFormSubmit = (event) => {
   event.preventDefault();
 
