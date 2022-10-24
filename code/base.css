@@ -1,0 +1,18 @@
+.view-the-code {
+  background-color: yellow;
+  color: black;
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: .25rem;
+  display: inline-block;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  text-decoration: none;
+}
+
+.view-the-code:hover, .view-the-code:focus {
+  background-color: black;
+  color: white;
+  text-decoration: underline;
+}

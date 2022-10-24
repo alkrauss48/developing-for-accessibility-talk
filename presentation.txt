@@ -153,6 +153,9 @@ Tips for developing for visual impairments:
 ARIA = Accessible Rich
 Internet Applications
 
+The best ARIA
+is no ARIA
+
 Tips for designing for visual impairments:
 
 * Color-blindness
