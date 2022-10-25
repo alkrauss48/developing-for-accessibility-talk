@@ -1,6 +1,14 @@
 Developing for
 Accessibility
 
+This talk has one focus:
+
+To teach you small ways
+that you can code for
+accessibility
+
+40% talk / 60% demo
+
 Who am I?
 
 Aaron Krauss
@@ -54,7 +62,7 @@ What is Accessibility?
 
 a11y
 
-Accessibility is giving a frick about people
+Accessibility = caring about people
 
 All people
 
@@ -62,7 +70,7 @@ That includes users with disabilities
 
 And also users with no disabilities at all
 
-Main Concept
+The Pitch
 
 Building an accessible web site
 makes your website better overall
@@ -103,8 +111,7 @@ Accessibility = handling everyone
 
 Myth #2
 
-Accessibility = people use screen readers,
-so add image alt text
+Accessibility = add image alt text
 
 Wrong
 
@@ -131,7 +138,7 @@ Visual Concerns
 
 Low-or-no Vision
 
-People will use screen readers
+People will often use screen readers
 
 Windows - JAWS
 MacOS - Voice Over (built-in)
@@ -145,6 +152,7 @@ Accessibility tree vs DOM tree
 Tips for developing for visual impairments:
 
 * Use Semantic HTML
+* Text size
 * Use headings appropriately
 * Image alt tags
 * Use links & buttons right
@@ -163,28 +171,28 @@ Tips for designing for visual impairments:
 * Z-Pattern
 * Open-Graph & Favicon
 
-Color-blindness
-
-Not just one kind
-
 Wave and/or axe Chrome Plugin
-
-Contrast
 
 @images/contrast.png
 
-Z-Pattern
-
-Users don’t read web pages,
-they scan.
-
 @images/z-scan.png
 
-Open Graph & Favicon
+Motor Concerns
+
+* Responsive Applications
+* Skip menus
+* Tab flow
+* Focus indicators
+* "Submit" actions (space/enter)
+* "Cancel" actions (esc)
+
+@images/modal.png
+
+DEMO
 
 Auditory Concerns
 
-For Media:
+For primary audio media:
 
 * Subtitles
 * Volume controls
@@ -198,39 +206,6 @@ For supplemental audio:
 
 * Visual cues
 * Nothing absurd (i.e. loud, lengthy, confusing)
-
-Motor Concerns
-
-* Responsive Applications
-* Skip menus
-* Tab flow
-* Focus indicators
-* "Submit" actions
-* "Cancel" actions
-
-Responsive Applications
-
-@images/responsive.png
-
-Skip menus
-
-Tab flow
-
-Focus indicators
-
-"Submit" actions
-
-e.g. the Enter or Spacebar key
-
-@images/modal.png
-
-"Cancel" actions
-
-e.g. the ESC key
-
-@images/modal.png
-
-DEMO
 
 Cognitive Concerns
 
@@ -267,22 +242,14 @@ Drum Roll...
 Not all users have a ton of data,
 let alone fast connections
 
-Especially in other countries
-
 So what can you do?
 
 0. Optimize your images
+1. Minify & Tree-shake your CSS and JS
+2. Don't overdo it on custom fonts
+3. Use caching
 
 @images/super-mario.png
-
-150-200 KB is usually my limit.
-Ideally less than that.
-
-1. Minify & Tree-shake your CSS and JS
-
-2. Don't overdo it on custom fonts
-
-3. Set caching HTTP headers
 
 References & Demo
 https://alkrauss48.github.io/developing-for-accessibility-talk/
