@@ -282,6 +282,8 @@ it will
 How to Get Involved
 Beyond Thunderplains
 
+Hacktoberfest
+
 Go to these links:
 * meetup.com/pro/techlahoma
 * slack.techlahoma.org
