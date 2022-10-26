@@ -3,9 +3,17 @@ Accessibility
 
 This talk has one focus:
 
-To teach you small ways
-that you can code for
-accessibility
+For you to come out
+with actionable things
+that you can do today
+for your projects
+
+You are not expected to be
+an accessibility expert
+
+Give yourself the grace to
+learn this stuff, just like
+when you first learned to code
 
 40% talk / 60% demo
 
@@ -15,8 +23,8 @@ Aaron Krauss
 
 I like:
 * tea
-* cocktails
 * longboarding
+* random hobby of the month
 
 I have a beautiful wife
 and a beautiful son
@@ -101,7 +109,7 @@ Say "users with disabilities"
 
 Myth Busing Time
 
-Myth #1
+A11y Myth #1
 
 Accessibility = handling blind users
 
@@ -109,7 +117,7 @@ Wrong
 
 Accessibility = handling everyone
 
-Myth #2
+A11y Myth #2
 
 Accessibility = add image alt text
 
@@ -157,6 +165,10 @@ Tips for developing for visual impairments:
 * Image alt tags
 * Use links & buttons right
 * ARIA roles and attributes - as needed
+
+Text Size
+* Avoid using px (use rem)
+* Be weary of small text / clickable areas
 
 ARIA = Accessible Rich
 Internet Applications
@@ -251,11 +263,21 @@ So what can you do?
 
 @images/super-mario.png
 
-References & Demo
+Demo & References
 https://alkrauss48.github.io/developing-for-accessibility-talk/
 
 GitHub Repo
 https://github.com/alkrauss48/developing-for-accessibility-talk
+
+Remember:
+
+@images/remember-simba.png
+
+Baby steps
+
+If you let a11y
+overwhelm you,
+it will
 
 How to Get Involved
 Beyond Thunderplains
