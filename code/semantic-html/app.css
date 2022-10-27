@@ -5,7 +5,7 @@
   --footer-hsl-hue: 120;
   --header-hsl-hue: 160;
   --main-hsl-hue: 200;
-  --nav-hsl-hue: 240;
+  --nav-hsl-hue: 260;
   --section-hsl-hue: 330;
 
   --background-color-lightness: 80%;
@@ -23,6 +23,7 @@ address, article, aside, footer, header, main, nav, section {
 }
 
 address {
+  font-style: normal;
   background-color: hsl(var(--address-hsl-hue), 100%, var(--background-color-lightness));
   border-color: hsl(var(--address-hsl-hue), 100%, var(--border-color-lightness));
 }

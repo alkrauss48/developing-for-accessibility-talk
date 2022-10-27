@@ -59,6 +59,12 @@ of 3 groups
 
 @images/okc-webdevs.png
 
+Next meetup:
+Tuesday, Nov 15th
+11:30am - 12:30pm @ Clevyr
+
+@images/clevyr-parking.png
+
 @images/okc-coffee-and-code.png
 
 So what are we
@@ -83,9 +89,9 @@ The Pitch
 Building an accessible web site
 makes your website better overall
 
-* More quality content
 * Better design architecture
 * Better code architecture
+* More quality content
 * Better SEO
 * More usage and popularity
 
@@ -100,6 +106,14 @@ Section 508
 
 It requires all Federal electronic
 content to be accessible
+
+ADA
+
+Americans with
+Disabilities Act
+
+Applies to the public
+and private sector
 
 Some housekeeping...
 
@@ -149,7 +163,7 @@ Low-or-no Vision
 People will often use screen readers
 
 Windows - JAWS
-MacOS - Voice Over (built-in)
+MacOS - VoiceOver (built-in)
 
 Accessibility tree
 
@@ -233,7 +247,7 @@ Good Content
 
 Good UX
 
-* Consider all user workflows
+* Consider all user personas
 * Build wireframes
 
 "Panic" mode
@@ -264,10 +278,12 @@ So what can you do?
 @images/super-mario.png
 
 Demo & References
-https://alkrauss48.github.io/developing-for-accessibility-talk/
+https://alkrauss48.github.io
+/developing-for-accessibility-talk/
 
 GitHub Repo
-https://github.com/alkrauss48/developing-for-accessibility-talk
+https://github.com/alkrauss48
+/developing-for-accessibility-talk
 
 Remember:
 
@@ -282,11 +298,11 @@ it will
 How to Get Involved
 Beyond Thunderplains
 
-Hacktoberfest
-
 Go to these links:
 * meetup.com/pro/techlahoma
 * slack.techlahoma.org
+
+Hacktoberfest
 
 Thanks!
 
