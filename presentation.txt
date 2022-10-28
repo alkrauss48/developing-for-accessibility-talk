@@ -40,22 +40,13 @@ New Development
 
 @images/techlahoma.png
 
-Involved since before
-Techlahoma existed
-
 Active speaker
 since 2014
 
 Former Techlahoma
 Board Member
-(2018 - 2019)
 
 User group leader
-of 3 groups
-
-* OKC Ruby (2018 - 2020)
-* OKC WebDevs (since 2020)
-* OKC Coffee and Code (since 2022)
 
 @images/okc-webdevs.png
 
@@ -115,34 +106,6 @@ Disabilities Act
 Applies to the public
 and private sector
 
-Some housekeeping...
-
-Don't say "disabled users"
-
-Say "users with disabilities"
-
-Myth Busing Time
-
-A11y Myth #1
-
-Accessibility = handling blind users
-
-Wrong
-
-Accessibility = handling everyone
-
-A11y Myth #2
-
-Accessibility = add image alt text
-
-Wrong
-
-Accessibility = a ton of stuff
-
-But it's okay...
-
-@images/we-can-do-this.png
-
 Types of Disabilities
 
 * Visual
@@ -154,9 +117,13 @@ Followed by a bonus disability
 
 Visual Concerns
 
-* Low-or-no Vision
 * Color-blindness
 * Contrast
+* Low-or-no Vision
+
+Wave and/or axe Chrome Plugin
+
+@images/contrast.png
 
 Low-or-no Vision
 
@@ -169,20 +136,14 @@ Accessibility tree
 
 @images/accessibility-tree.png
 
-Accessibility tree vs DOM tree
-
 Tips for developing for visual impairments:
 
 * Use Semantic HTML
-* Text size
+* Don't use px for text
 * Use headings appropriately
 * Image alt tags
 * Use links & buttons right
 * ARIA roles and attributes - as needed
-
-Text Size
-* Avoid using px (use rem)
-* Be weary of small text / clickable areas
 
 ARIA = Accessible Rich
 Internet Applications
@@ -190,22 +151,8 @@ Internet Applications
 The best ARIA
 is no ARIA
 
-Tips for designing for visual impairments:
-
-* Color-blindness
-* Contrast
-* Z-Pattern
-* Open-Graph & Favicon
-
-Wave and/or axe Chrome Plugin
-
-@images/contrast.png
-
-@images/z-scan.png
-
 Motor Concerns
 
-* Responsive Applications
 * Skip menus
 * Tab flow
 * Focus indicators
@@ -256,8 +203,6 @@ Think websites like:
 * Hospitals
 * Schools
 * Local News / Weather
-
-Make a few things incredibly simple
 
 Bonus Disability
 
