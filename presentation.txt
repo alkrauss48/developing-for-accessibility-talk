@@ -50,12 +50,6 @@ User group leader
 
 @images/okc-webdevs.png
 
-Next meetup:
-Tuesday, Nov 15th
-11:30am - 12:30pm @ Clevyr
-
-@images/clevyr-parking.png
-
 @images/okc-coffee-and-code.png
 
 So what are we
@@ -93,18 +87,8 @@ And all of that usually means more $$$
 Developing an accessibile site
 may also be required
 
-Section 508
-
-It requires all Federal electronic
-content to be accessible
-
-ADA
-
-Americans with
-Disabilities Act
-
-Applies to the public
-and private sector
+* Section 508
+* ADA
 
 Types of Disabilities
 
@@ -113,15 +97,11 @@ Types of Disabilities
 * Auditory
 * Cognitive
 
-Followed by a bonus disability
-
 Visual Concerns
 
 * Color-blindness
 * Contrast
 * Low-or-no Vision
-
-Wave and/or axe Chrome Plugin
 
 @images/contrast.png
 
@@ -138,11 +118,11 @@ Accessibility tree
 
 Tips for developing for visual impairments:
 
-* Use Semantic HTML
+* Use semantic HTML
 * Don't use px for text
 * Use headings appropriately
 * Image alt tags
-* Use links & buttons right
+* Use links & buttons correctly
 * ARIA roles and attributes - as needed
 
 ARIA = Accessible Rich
@@ -153,8 +133,11 @@ is no ARIA
 
 Motor Concerns
 
+Users may struggle to use
+their mouse and/or keyboard
+
 * Skip menus
-* Tab flow
+* Good Tab flow
 * Focus indicators
 * "Submit" actions (space/enter)
 * "Cancel" actions (esc)
@@ -185,19 +168,6 @@ Cognitive Concerns
 * Good content
 * Good UX
 * "Panic" mode
-
-Good Content
-
-* Labels
-* Titles / Headings
-* Call to Actions
-
-Good UX
-
-* Consider all user personas
-* Build wireframes
-
-"Panic" mode
 
 Think websites like:
 * Hospitals
@@ -239,15 +209,6 @@ Baby steps
 If you let a11y
 overwhelm you,
 it will
-
-How to Get Involved
-Beyond Thunderplains
-
-Go to these links:
-* meetup.com/pro/techlahoma
-* slack.techlahoma.org
-
-Hacktoberfest
 
 Thanks!
 
