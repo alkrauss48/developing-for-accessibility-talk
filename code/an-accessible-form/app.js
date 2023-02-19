@@ -118,29 +118,3 @@ const handleValidationError = (name, label) => {
 const focusOn = (name) => {
   document.querySelector(`[name=${name}]`).focus();
 };
-
-// Reset invalid state & error message on `input` event, trigger validation check
-// on `blur` event.
-document.querySelectorAll('.form-group input').forEach( (input) => {
-  input.addEventListener('input', () => {
-    input.removeAttribute('aria-invalid');
-    input.removeAttribute('aria-describedby');
-
-    const error = input.closest('.form-group').querySelector('.error');
-    if (error) {
-      error.remove();
-    }
-  });
-
-  input.addEventListener('blur', () => {
-    const errors = validate(Object.fromEntries(new FormData(document.getElementById('form'))));
-
-    const error = errors.find( (error) => error.name === input.name );
-
-    if (error) {
-      handleValidationError(error.name, error.label);
-    }
-  });
-});
-
-
