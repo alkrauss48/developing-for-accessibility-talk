@@ -1,6 +1,12 @@
 Developing for
 Accessibility
 
+Take a
+deep breath
+
+You're going to
+learn a lot
+
 This talk has one focus:
 
 For you to come out
@@ -15,7 +21,8 @@ Give yourself the grace to
 learn this stuff, just like
 when you first learned to code
 
-40% talk / 60% demo
+40% talk
+60% demo
 
 Who am I?
 
@@ -69,23 +76,10 @@ That includes users with disabilities
 
 And also users with no disabilities at all
 
-The Pitch
+Developing an accessible site
+will make your site better
 
-Building an accessible web site
-makes your website better overall
-
-* Better design architecture
-* Better code architecture
-* More quality content
-* Better SEO
-* More usage and popularity
-
-And all of that usually means more $$$
-
-@images/make-money.png
-
-Developing an accessibile site
-may also be required
+And it's probably required
 
 * Section 508
 * ADA
@@ -105,69 +99,62 @@ Visual Concerns
 
 @images/contrast.png
 
-Low-or-no Vision
+Motor Concerns
 
-People will often use screen readers
+* Chronic pain
+* low-motor function
 
-Windows - JAWS
-MacOS - VoiceOver (built-in)
+So how do you develop
+for accessibility?
+
+Can I use one of
+those website plugins?
+
+@images/accessibility-button.png
+
+@images/accessibility-menu.png
+
+The answer is:
+
+No
+
+1) They are afterthoughts
+2) They get you < 50% there
+3) You can still get sued
+
+So how do you develop
+for accessibility?
+
+1) Write semantic HTML
+2) Use ARIA only as needed
+
+ARIA = Accessible Rich
+Internet Applications
+
+"No ARIA is better
+than bad ARIA."
+- WebAIM
 
 Accessibility tree
 
 @images/accessibility-tree.png
 
-Tips for developing for visual impairments:
-
-* Use semantic HTML
-* Don't use px for text
-* Use headings appropriately
-* Image alt tags
-* Use links & buttons correctly
-* ARIA roles and attributes - as needed
-
-ARIA = Accessible Rich
-Internet Applications
-
-The best ARIA
-is no ARIA
-
-Motor Concerns
-
-Users may struggle to use
-their mouse and/or keyboard
-
-* Skip menus
-* Good Tab flow
-* Focus indicators
-* "Submit" actions (space/enter)
-* "Cancel" actions (esc)
-
-@images/modal.png
-
 DEMO
 
 Auditory Concerns
-
-For primary audio media:
 
 * Subtitles
 * Volume controls
 * Ideally default to a "muted" state
 
 My advice:
-
 Use YouTube or Vimeo
-
-For supplemental audio:
-
-* Visual cues
-* Nothing absurd (i.e. loud, lengthy, confusing)
 
 Cognitive Concerns
 
 * Good content
 * Good UX
-* "Panic" mode
+* Consider "Panic" mode
 
 Think websites like:
 * Hospitals
@@ -192,6 +179,12 @@ So what can you do?
 
 @images/super-mario.png
 
+Last Minute
+Awesome Tools
+
+1) WAVE
+2) WebAIM Million
+
 Demo & References
 https://alkrauss48.github.io
 /developing-for-accessibility-talk/
@@ -200,7 +193,7 @@ GitHub Repo
 https://github.com/alkrauss48
 /developing-for-accessibility-talk
 
-Remember:
+Remember (Simba):
 
 @images/remember-simba.png
 

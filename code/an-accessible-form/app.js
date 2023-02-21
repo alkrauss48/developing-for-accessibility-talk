@@ -73,7 +73,7 @@ const validate = (formProps) => {
   if (!formProps.enjoying) {
     errors.push({
       name: 'enjoying',
-      label: 'Knowing that you are enjoying ThunderPlains 2022 is required.',
+      label: 'Knowing that you are enjoying OKC WebDevs is required.',
     });
   }
 

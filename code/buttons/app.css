@@ -32,6 +32,10 @@ aside {
   font-weight: 700;
 }
 
+.tag-example {
+  min-height: 3em;
+}
+
 .form-group {
   margin-bottom: 1rem;
   margin-right: .5rem;

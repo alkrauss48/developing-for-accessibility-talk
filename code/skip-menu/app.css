@@ -1,37 +1,29 @@
-#skipmenu { position: relative; }
-
 .skip-link {
   position: absolute;
-  top: -1000px;
-  left: -1000px;
-  height: 1px;
-  width: 1px;
-  text-align: left;
-  overflow: hidden;
-  -webkit-user-select: none;
-  -webkit-user-drag: none;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  top: -10rem;
+  left: 0;
+  width: 100%;
+  background-color: #075290;
+  padding: .5rem;
+  z-index: 50;
+  color: #fff;
+  font-weight: 700;
 }
 
-.skip-link:active, .skip-link:focus, .skip-link:hover {
+.skip-link:focus {
   top: 0;
   left: 0;
-  font-size: 1em;
-  font-weight: 700;
-  color: #fff;
-  background-color: #075290;
-  height: auto;
-  overflow: auto;
-  width: 99%;
-  padding: 5px;
-  z-index: 100;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
 }
 
 h1 {
   margin-top: 0;
   padding-top: 2rem;
 }
-
 
 button {
   display: inline-block;

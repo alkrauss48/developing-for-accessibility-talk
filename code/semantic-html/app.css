@@ -5,10 +5,10 @@
   --footer-hsl-hue: 120;
   --header-hsl-hue: 160;
   --main-hsl-hue: 200;
-  --nav-hsl-hue: 260;
+  --nav-hsl-hue: 220;
   --section-hsl-hue: 330;
 
-  --background-color-lightness: 80%;
+  --background-color-lightness: 85%;
   --border-color-lightness: 30%;
 }
 
